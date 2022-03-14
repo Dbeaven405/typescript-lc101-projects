@@ -3,11 +3,16 @@
 
 
 // Part 1: Declare (5) Variables With Type
-
+let spacecreaftName: string= 'determination'
+let speedMph: number= 17500
+let kilometersToMars: number= 225000000
+let kilometersToMoon: number = 384400
+let milesPerKiloneter: number = 0.621
 
 
 // Part 2: Print Days to Mars
-
+let milesToMars = kilometersToMars*milesPerKiloneter
+console.log(milesToMars)
 
 
 // Code an output statement here (use a template literal):
